@@ -1,0 +1,6 @@
+{
+  "scenario_id": "S3",
+  "seed": 0,
+  "provider": "stub",
+  "model": "stub-deterministic"
+}

@@ -1,0 +1,124 @@
+- id: Q01
+  question: algorithmic impact assessment prior to the production of any automated
+    decision system
+  expect_doc: canada-dadm
+- id: Q02
+  question: meaningful explanation denial of a benefit principal factors human officers
+  expect_doc: canada-dadm
+- id: Q03
+  question: final decision must be made by a human clearly defined human involvement
+  expect_doc: canada-dadm
+- id: Q04
+  question: recourse options are timely effective and easy to access
+  expect_doc: canada-dadm
+- id: Q05
+  question: consulting with the department legal services from the concept stage
+  expect_doc: canada-dadm
+- id: Q06
+  question: solves a whole problem for users generative artificial intelligence
+  expect_doc: uk-service-standard
+- id: Q07
+  question: joined up experience across all channels offline parts letters
+  expect_doc: uk-service-standard
+- id: Q08
+  question: simple intuitive and comprehensible succeed first time
+  expect_doc: uk-service-standard
+- id: Q09
+  question: screen readers speech recognition assistive technologies
+  expect_doc: uk-service-standard
+- id: Q10
+  question: operate a reliable service staffed fallback
+  expect_doc: uk-service-standard
+- id: Q11
+  question: Algorithmic Transparency Recording Standard publish a record of an algorithmic
+    tool
+  expect_doc: uk-atrs
+- id: Q12
+  question: transparency record is not a mandate does not grant a power
+  expect_doc: uk-atrs
+- id: Q13
+  question: rights-impacting safety-impacting M-24-10 impact assessment
+  expect_doc: omb-m-24-10
+- id: Q14
+  question: human fallback vendor-hosted model outage continue the service
+  expect_doc: omb-m-24-10
+- id: Q15
+  question: GOVERN MAP MEASURE and MANAGE cross-cutting function
+  expect_doc: nist-ai-rmf
+- id: Q16
+  question: MANAGE function entails allocating risk resources incidents or events
+  expect_doc: nist-ai-rmf
+- id: Q17
+  question: Incidents and errors are communicated to relevant AI actors
+  expect_doc: nist-ai-rmf
+- id: Q18
+  question: prompt injection untrusted message override the system task
+  expect_doc: nist-ai-600-1
+- id: Q19
+  question: confabulation hallucination content provenance generative
+  expect_doc: nist-ai-600-1
+- id: Q20
+  question: effectively overseen by natural persons human-machine interface
+  expect_doc: eu-ai-act
+- id: Q21
+  question: deep fake artificially generated or manipulated interacting with an AI
+    system
+  expect_doc: eu-ai-act
+- id: Q22
+  question: essential public assistance benefits Annex III point 5 eligibility
+  expect_doc: eu-ai-act
+- id: Q23
+  question: specified explicit and legitimate purposes not further processed
+  expect_doc: gdpr
+- id: Q24
+  question: decision based solely on automated processing contest the decision
+  expect_doc: gdpr
+- id: Q25
+  question: not later than 72 hours notify the personal data breach
+  expect_doc: gdpr
+- id: Q26
+  question: communicate the personal data breach to the data subject without undue
+    delay
+  expect_doc: gdpr
+- id: Q27
+  question: UNESCO inclusive access screen reader linguistic diversity
+  expect_doc: unesco-briefing
+- id: Q28
+  question: UNESCO proportionality safety and human oversight automated denial
+  expect_doc: unesco-briefing
+- id: Q29
+  question: OECD AI Principles transparent robust secure and safe accountability
+  expect_doc: oecd-briefing
+- id: Q30
+  question: OECD international cooperation interoperable governance sandboxes
+  expect_doc: oecd-briefing
+- id: Q31
+  question: Robodebt automated income averaging social-security debts unlawful
+  expect_doc: robodebt-briefing
+- id: Q32
+  question: cited legal basis explanation a person can use human review path
+  expect_doc: robodebt-briefing
+- id: Q33
+  question: SyRI social-security fraud Article 8 European Convention
+  expect_doc: syri-briefing
+- id: Q34
+  question: change of purpose fraud score cross-domain collector SyRI
+  expect_doc: syri-briefing
+- id: Q35
+  question: childcare benefits dual nationality risk signal repay
+  expect_doc: childcare-briefing
+- id: Q36
+  question: conflicting objectives assistance file fraud score documented
+  expect_doc: childcare-briefing
+- id: Q37
+  question: content provenance synthetic impersonation fake ministry chatbot
+  expect_doc: singapore-briefing
+- id: Q38
+  question: testing against abusive prompts generative incident report Singapore
+  expect_doc: singapore-briefing
+- id: Q39
+  question: Framework Convention human rights remedy sandbox before a live decision
+  expect_doc: coe-briefing
+- id: Q40
+  question: ITU-T Y.3172 ML pipeline SRC Collector Pre-processor MLFO Sandbox
+  expect_doc: ref-y3172-summary

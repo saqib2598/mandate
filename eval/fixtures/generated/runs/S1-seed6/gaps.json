@@ -1,0 +1,103 @@
+[
+ {
+  "node": "P",
+  "dimensions": [
+   "D10"
+  ],
+  "category": "legislative",
+  "gap": "No mandated human review for benefit denials",
+  "global_example": {
+   "source_chunk_id": "FAKE-CASE-020",
+   "quote": "no human checked the automated letters"
+  },
+  "severity": "medium"
+ },
+ {
+  "node": "M",
+  "dimensions": [
+   9
+  ],
+  "category": "unclear_responsibilities",
+  "gap": "Appeal route not built into the model output",
+  "global_example": {
+   "source_chunk_id": "FAKE-ADM-001",
+   "quote": "the affected person must be told how to appeal"
+  },
+  "severity": "medium"
+ },
+ {
+  "node": "P",
+  "dimensions": [
+   "D10"
+  ],
+  "category": "legislative",
+  "gap": "same gap reworded",
+  "global_example": {
+   "source_chunk_id": "FAKE-CASE-020",
+   "quote": "no human checked the automated letters"
+  },
+  "severity": "high"
+ },
+ {
+  "node": "P",
+  "dimensions": [
+   "D7"
+  ],
+  "category": "legislative",
+  "gap": "Fakeland should adopt a law",
+  "global_example": {
+   "source_chunk_id": "FAKE-ADM-001",
+   "quote": "must be subject to meaningful human review before it takes effect"
+  },
+  "severity": "medium"
+ },
+ {
+  "node": "Q",
+  "dimensions": [
+   "D7"
+  ],
+  "category": "standards",
+  "gap": "bad node",
+  "global_example": {
+   "source_chunk_id": "FAKE-ADM-001",
+   "quote": "must be subject to meaningful human review before it takes effect"
+  },
+  "severity": "medium"
+ },
+ {
+  "node": "M",
+  "dimensions": [
+   "D2"
+  ],
+  "category": "technology",
+  "gap": "no example",
+  "global_example": {},
+  "severity": "low"
+ },
+ {
+  "node": "PP",
+  "dimensions": [
+   "D1"
+  ],
+  "category": "legislative",
+  "gap": "example chunk not retrieved by gap analyst",
+  "global_example": {
+   "source_chunk_id": "FAKE-DP-010",
+   "quote": "notify the supervisory authority of a personal data breach"
+  },
+  "severity": "medium"
+ },
+ {
+  "node": "SINK",
+  "dimensions": [
+   "D99"
+  ],
+  "category": "technology",
+  "gap": "no valid dimension",
+  "global_example": {
+   "source_chunk_id": "FAKE-ADM-001",
+   "quote": "must be subject to meaningful human review before it takes effect"
+  },
+  "severity": "medium"
+ }
+]

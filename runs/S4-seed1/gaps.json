@@ -1,0 +1,30 @@
+[
+  {
+    "node": "M",
+    "dimensions": [
+      "D2"
+    ],
+    "factor": "research",
+    "category": "technology_gap",
+    "gap": "A generative assistant can state a fee the law does not set, and the model node has no provenance mark that would let a reader see the sentence was generated.\n",
+    "global_example": {
+      "source_chunk_id": "eu-ai-act:002",
+      "quote": "Providers shall ensure that AI systems intended to interact directly with natural persons are designed and developed in such a way that the natural persons concerned are informed"
+    },
+    "severity": "high"
+  },
+  {
+    "node": "D",
+    "dimensions": [
+      "D2"
+    ],
+    "factor": "opensource",
+    "category": "coordination",
+    "gap": "Taking down an impersonating channel and marking official replies are split across institutions, with no shared provenance signal between them.\n",
+    "global_example": {
+      "source_chunk_id": "singapore-briefing:001",
+      "quote": "The framework treats content provenance as a control for synthetic impersonation. A public body that publishes generative replies should be able to show that an official answer"
+    },
+    "severity": "high"
+  }
+]

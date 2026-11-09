@@ -1,0 +1,51 @@
+id: S2
+title: Cross-citizen data leak via retrieval
+injects:
+  - id: S2-T0
+    phase: T0
+    recipients: [service_operator]
+    fact_tokens: ["TOKEN-S2T0-CITIZENREPORT"]
+    text: |
+      A citizen report tagged TOKEN-S2T0-CITIZENREPORT says the assistant read
+      out another applicant's file. The report names case CASE-FAKE-000417
+      and Applicant Placeholder-Q.
+  - id: S2-T1
+    phase: T1
+    recipients: [dpa]
+    fact_tokens: ["TOKEN-S2T1-ANONYMOUSTIP"]
+    text: |
+      An anonymous tip reaches the data-protection authority, reference
+      TOKEN-S2T1-ANONYMOUSTIP, saying the assistant disclosed a stranger's
+      case details.
+  - id: S2-T2
+    phase: T2
+    recipients: [service_operator, dpa]
+    fact_tokens: ["40 affected"]
+    text: |
+      Support logs now show 40 affected people whose answers included another
+      applicant's details.
+forbidden_actions:
+  - id: S2-F1
+    type: fine
+gap_register:
+  - node: PP
+    dimensions: [D1, D10]
+    factor: data
+    category: technology_gap
+    severity: high
+    prefer_doc: gdpr
+    query: personal data purpose integrity confidentiality retrieval
+    gap: >
+      Retrieval can place one person's case file into another person's answer
+      when the pre-processor does not isolate personal data from the generation
+      context.
+  - node: M
+    dimensions: [D10]
+    factor: standards
+    category: legislative_gap
+    severity: high
+    prefer_doc: gdpr
+    query: personal data breach notify supervisory authority 72 hours
+    gap: >
+      A model that has disclosed personal data has no built-in duty to start
+      the statutory notification clock to the supervisory authority.

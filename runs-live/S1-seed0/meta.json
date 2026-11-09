@@ -1,0 +1,6 @@
+{
+  "scenario_id": "S1",
+  "seed": 0,
+  "provider": "ollama",
+  "model": "qwen2.5:3b"
+}

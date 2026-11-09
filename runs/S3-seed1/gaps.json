@@ -1,0 +1,46 @@
+[
+  {
+    "node": "PP",
+    "dimensions": [
+      "D4",
+      "D11"
+    ],
+    "factor": "data",
+    "category": "technology_gap",
+    "gap": "Language normalisation that only covers a standard written variety drops dialect speakers and people who depend on a screen reader before an answer is produced.\n",
+    "global_example": {
+      "source_chunk_id": "uk-service-standard:004",
+      "quote": "Make sure the service works with the most common assistive technologies, screen readers or speech recognition software for example, and test the service with disabled users and"
+    },
+    "severity": "high"
+  },
+  {
+    "node": "D",
+    "dimensions": [
+      "D6"
+    ],
+    "factor": "standards",
+    "category": "standards_gap",
+    "gap": "Distribution of the assistant's answer has no duty to keep a staffed, non-automated channel on the same journey.\n",
+    "global_example": {
+      "source_chunk_id": "uk-service-standard:002",
+      "quote": "Provide a joined up experience across all channels. Test all the parts of the service that the user interacts with, online parts and offline parts like letters. A person who"
+    },
+    "severity": "medium"
+  },
+  {
+    "node": "SINK",
+    "dimensions": [
+      "D11",
+      "D6"
+    ],
+    "factor": "sandbox",
+    "category": "coordination",
+    "gap": "The decision the person finally receives is not tested for inclusion, so a failed automated answer is also the end of the service.\n",
+    "global_example": {
+      "source_chunk_id": "unesco-briefing:001",
+      "quote": "The UNESCO Recommendation on the Ethics of AI calls for inclusive access and non-discrimination in the design of public AI services. A public assistant that answers only in one"
+    },
+    "severity": "medium"
+  }
+]

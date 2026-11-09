@@ -1,0 +1,4 @@
+{"action_id": "S5-seed1-0002-01", "args": {"topic": "service_outage"}, "phase": "T0", "role": "service_operator", "target": "ict_regulator", "type": "NOTIFY"}
+{"action_id": "S5-seed1-0002-02", "args": {"summary": "Applicants are served by staff while the hosted model is down."}, "phase": "T0", "role": "service_operator", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S5-seed1-0004-02", "args": {"summary": "The outage report and a residency review are both required."}, "phase": "T1", "role": "ict_regulator", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S5-seed1-0006-01", "args": {"summary": "The inquiry covers offshore processing. Hosting orders stay with the digital regulator."}, "phase": "T2", "role": "dpa", "target": "broadcast", "type": "ASSESSMENT"}

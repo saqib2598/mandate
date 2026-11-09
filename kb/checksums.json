@@ -1,0 +1,21 @@
+{
+  "canada-dadm": "fc7f4d14f056e0b94b7fff6a1c9d07994fed0657ceb1a5c3806aed86895a3915",
+  "uk-service-standard": "f4bd0c0a81d8876e5b3f2fdbda12ee47924327dc0daa88f35ed43c7171fc55dc",
+  "uk-atrs": "018b2f6e1fe9d9ca83cd21d2f3aecdf28f2b92cccfb0cd7ad983384a3db788b8",
+  "omb-m-24-10": "8d57e3012dab3a90b2aac8d45f3b1727676ae39b31eda945e92364ad3fc40a1b",
+  "nist-ai-rmf": "80b0e0eb05efca2268a0f7540c715276feeee6bcd47ad292f17d8db9f8c21c4a",
+  "nist-ai-600-1": "9bb4d31f1d6b0799dac5063ca6692e5e17328e6d0d6856a4e99d13e3c92ec360",
+  "eu-ai-act": "c69315a12da22837b79b413482dc8b9ddba3ee05158c371afd2e707e27f7721c",
+  "gdpr": "aa7b9d8a15a081692d8965f5db2251be8a45260b410cc689bba6560a9a980562",
+  "unesco-briefing": "4b471f115ee15ae625389fac68345ff04b6f52ced838640423ef60c25d7b8ad7",
+  "oecd-briefing": "97a997485bb22e54b86e76a1095db5f3ae7417e4249e1f5cab823c0190542a5d",
+  "robodebt-briefing": "fe54b444d07a7a862d8eeb9f09feec5a1dff2a81fb17c10fa59a384f65b65134",
+  "syri-briefing": "b8ae93147a973b62c218551ea9a038578b6aecfd0a6512ef6a45dc62d4cc7ca1",
+  "childcare-briefing": "fff670d7493d004531dadd7a2161130598ae4e6a3e77b4ec0f10b9f5292fe08f",
+  "singapore-briefing": "9f4e6201f74aa9ad79b2634cc5a4959ca23e1154a42c9217dab33e6ba979de22",
+  "coe-briefing": "834360f294710f85de5778be2896dfc9b7e743843b6f562cb90473a29416322c",
+  "ref-y3172-summary": "6653dc2e84ad26398056e7d98c4ee00fc8bdaf25d35f295b889861c17912be1b",
+  "ref-eu-ai-act-summary": "74743ab14120577b82cba66b904838570c34cae857772cacd40ad12b99807289",
+  "ref-sandbox-summary": "2440899dc0325f8f38fc476b8217d8b3a5d6065b251364b81b95cc64209c57af",
+  "ai-ready-2-dimensions": "a3cc9bfd2b09c7b5ce430d31def63279cd0ab3d8371fbbd8db06a0d50c8b7165"
+}

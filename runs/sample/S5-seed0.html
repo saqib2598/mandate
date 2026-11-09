@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en'><head><meta charset='utf-8'>
+<title>MANDATE audit S5 seed 0</title>
+<style>
+body{font-family:Georgia,serif;margin:2rem;background:#f7f4ee;color:#1c1915;}
+h1{font-weight:500;letter-spacing:.02em;} .meta{color:#5c564c;}
+article{background:#fff;border:1px solid #e4ddd0;border-radius:10px;padding:1rem 1.2rem;margin:1rem 0;}
+.phase{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:#7a5b2e;}
+.role{font-size:1.15rem;margin:.2rem 0 .6rem;}
+.allow{color:#1d6b3a;} .block{color:#8d1d1d;} .escalate{color:#8a5a00;}
+code{font-family:ui-monospace,monospace;font-size:.82rem;}
+blockquote{margin:.4rem 0;padding-left:.8rem;border-left:3px solid #e4ddd0;color:#3d3832;}
+</style></head><body>
+<h1>Audit timeline</h1><p class='meta'>S5 seed 0 · S5-seed0 · 7 records</p>
+<article><div class='phase'>T0 · record 1 · 4b1bf51e38e2</div><div class='role'>conductor</div><p>Released <code>S5-T0</code> to <code>service_operator</code>.</p></article>
+<article><div class='phase'>T0 · record 2 · cd0a187d1222</div><div class='role'>service_operator</div><ul><li><code>switch_to_manual_service</code> → psa <span class='allow'>allow</span> <span class='meta'>ok</span></li><li><code>NOTIFY</code> → ict_regulator <span class='allow'>allow</span> <span class='meta'>ok</span></li><li><code>ASSESSMENT</code> → broadcast <span class='allow'>allow</span> <span class='meta'>ok</span></li></ul><blockquote>The retrieved passage is the basis for this step. The memorandum expects a human fallback when the system fails or when a person asks for review of a rights-impacting decision. An outage of a vendor-hosted model does not suspend <code>omb-m-24-10:002</code></blockquote></article>
+<article><div class='phase'>T1 · record 3 · 75bd7a939d81</div><div class='role'>conductor</div><p>Released <code>S5-T1</code> to <code>ict_regulator</code>.</p></article>
+<article><div class='phase'>T1 · record 4 · 76261963a92d</div><div class='role'>ict_regulator</div><ul><li><code>require_outage_report</code> → service_operator <span class='allow'>allow</span> <span class='meta'>ok</span></li><li><code>residency_review</code> → psa <span class='allow'>allow</span> <span class='meta'>ok</span></li><li><code>ASSESSMENT</code> → broadcast <span class='allow'>allow</span> <span class='meta'>ok</span></li></ul><blockquote>The retrieved passage is the basis for this step. MANAGE 4.3: Incidents and errors are communicated to relevant AI actors, including affected communities. Processes for tracking, responding to, and recovering from incidents and <code>nist-ai-rmf:003</code></blockquote></article>
+<article><div class='phase'>T2 · record 5 · b4ca3b270fb3</div><div class='role'>conductor</div><p>Released <code>S5-T2</code> to <code>dpa</code>.</p></article>
+<article><div class='phase'>T2 · record 6 · 1f24a56246dc</div><div class='role'>dpa</div><ul><li><code>open_inquiry</code> → psa <span class='allow'>allow</span> <span class='meta'>ok</span></li><li><code>ASSESSMENT</code> → broadcast <span class='allow'>allow</span> <span class='meta'>ok</span></li></ul><blockquote>The retrieved passage is the basis for this step. In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal <code>gdpr:003</code></blockquote></article>
+<article><div class='phase'>T5 · record 7 · 1ba65abab041</div><div class='role'>gap_analyst</div><ul><li><code>produce_gap_register</code> → exercise <span class='allow'>allow</span> <span class='meta'>ok</span></li></ul><blockquote>The retrieved passage is the basis for this step. MANAGE 4.3: Incidents and errors are communicated to relevant AI actors, including affected communities. Processes for tracking, responding to, and recovering from incidents and <code>nist-ai-rmf:003</code></blockquote></article>
+</body></html>

@@ -1,0 +1,17 @@
+[project]
+name = "mandate"
+version = "0.1.0"
+description = "Mandate-guarded institutional sandbox for AI in public services."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+  "PyYAML>=6",
+  "python-docx>=1.1",
+]
+
+[project.scripts]
+mandate = "mandate.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mandate*"]

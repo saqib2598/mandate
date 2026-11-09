@@ -1,0 +1,30 @@
+[
+  {
+    "node": "C",
+    "dimensions": [
+      "D13"
+    ],
+    "factor": "deployment",
+    "category": "technology_gap",
+    "gap": "The collector has no local path when a foreign model region fails, and there is no shared record of the energy cost of keeping a second region warm so the service can survive.\n",
+    "global_example": {
+      "source_chunk_id": "nist-ai-rmf:003",
+      "quote": "MANAGE 4.3: Incidents and errors are communicated to relevant AI actors, including affected communities. Processes for tracking, responding to, and recovering from incidents and"
+    },
+    "severity": "high"
+  },
+  {
+    "node": "SINK",
+    "dimensions": [
+      "D13"
+    ],
+    "factor": "deployment",
+    "category": "standards_gap",
+    "gap": "When the hosted model is down, the decision point still needs a human fallback and an incident report. A vendor outage does not suspend that duty.\n",
+    "global_example": {
+      "source_chunk_id": "omb-m-24-10:002",
+      "quote": "The memorandum expects a human fallback when the system fails or when a person asks for review of a rights-impacting decision. An outage of a vendor-hosted model does not suspend"
+    },
+    "severity": "high"
+  }
+]

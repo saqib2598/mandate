@@ -1,0 +1,793 @@
+note: Metadata for InputDocs in ITUAIReadiness commit 84010da. Text is not shipped.
+  Three short summaries written in that repository are vendored separately and listed
+  in manifest.yaml.
+documents:
+- doc_id: ref-ai-impact-summit-declaration-new-delhi-february-18-19-2026
+  title: AI Impact Summit Declaration, New Delhi (February 18 - 19, 2026)
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/AI%20Impact%20Summit%20Declaration,%20New%20Delhi%20(February%2018%20-%2019,%202026).pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/AI Impact Summit
+    Declaration, New Delhi (February 18 - 19, 2026).pdf
+- doc_id: ref-ai-for-the-good-of-all-2025
+  title: AI for the Good of All 2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/AI%20for%20the%20Good%20of%20All%202025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/AI for the Good
+    of All 2025.pdf
+- doc_id: ref-ai-ready-framework-2025
+  title: AI_Ready_Framework_2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/AI_Ready_Framework_2025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/AI_Ready_Framework_2025.pdf
+- doc_id: ref-asean-ai-governance-ethics-guide-2024
+  title: ASEAN_AI_Governance_Ethics_Guide_2024
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/ASEAN_AI_Governance_Ethics_Guide_2024.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/ASEAN_AI_Governance_Ethics_Guide_2024.pdf
+- doc_id: ref-africa-declaration-ai-kigali-2025
+  title: Africa_Declaration_AI_Kigali_2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Africa_Declaration_AI_Kigali_2025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Africa_Declaration_AI_Kigali_2025.pdf
+- doc_id: ref-african-union-continental-ai-strategy-2024
+  title: African_Union_Continental_AI_Strategy_2024
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/African_Union_Continental_AI_Strategy_2024.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/African_Union_Continental_AI_Strategy_2024.pdf
+- doc_id: ref-brazil-pbia-2024-2028
+  title: Brazil_PBIA_2024_2028
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Brazil_PBIA_2024_2028.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Brazil_PBIA_2024_2028.pdf
+- doc_id: ref-ccia-global-ai-policies-roundup-2025
+  title: CCIA_Global_AI_Policies_Roundup_2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/CCIA_Global_AI_Policies_Roundup_2025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/CCIA_Global_AI_Policies_Roundup_2025.pdf
+- doc_id: ref-cgee-pbia
+  title: CGEE_PBIA
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/CGEE_PBIA.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/CGEE_PBIA.pdf
+- doc_id: ref-china-ai-security-governance-framework-2025
+  title: China_AI_Security_Governance_Framework_2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/China_AI_Security_Governance_Framework_2025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/China_AI_Security_Governance_Framework_2025.pdf
+- doc_id: ref-china-new-generation-ai-plan
+  title: China_New_Generation_AI_Plan
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/China_New_Generation_AI_Plan.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/China_New_Generation_AI_Plan.pdf
+- doc_id: ref-dco-ai-singularity-strategic-recommendations-2025
+  title: DCO_AI_Singularity_Strategic_Recommendations_2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/DCO_AI_Singularity_Strategic_Recommendations_2025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/DCO_AI_Singularity_Strategic_Recommendations_2025.pdf
+- doc_id: ref-digital-progress-trends-report-2025
+  title: Digital Progress Trends Report 2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Digital%20Progress%20Trends%20Report%202025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Digital Progress
+    Trends Report 2025.pdf
+- doc_id: ref-egypt-ai-strategy-2025-2030
+  title: Egypt_AI_Strategy_2025_2030
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Egypt_AI_Strategy_2025_2030.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Egypt_AI_Strategy_2025_2030.pdf
+- doc_id: ref-estonia-national-ai-strategy-2022
+  title: Estonia_National_AI_Strategy_2022
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Estonia_National_AI_Strategy_2022.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Estonia_National_AI_Strategy_2022.pdf
+- doc_id: ref-france-coalition-sustainable-ai-2025
+  title: France_Coalition_Sustainable_AI_2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/France_Coalition_Sustainable_AI_2025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/France_Coalition_Sustainable_AI_2025.pdf
+- doc_id: ref-g20-leaders-declaration-nov-18-2024
+  title: G20 Leaders Declaration Nov 18 2024
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/G20%20Leaders%20Declaration%20Nov%2018%202024.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/G20 Leaders Declaration
+    Nov 18 2024.pdf
+- doc_id: ref-g7-hiroshima-ai-code-of-conduct
+  title: G7_Hiroshima_AI_Code_of_Conduct
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/G7_Hiroshima_AI_Code_of_Conduct.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/G7_Hiroshima_AI_Code_of_Conduct.pdf
+- doc_id: ref-g7-hiroshima-ai-guiding-principles
+  title: G7_Hiroshima_AI_Guiding_Principles
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/G7_Hiroshima_AI_Guiding_Principles.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/G7_Hiroshima_AI_Guiding_Principles.pdf
+- doc_id: ref-gpai-belgrade-declaration-2024
+  title: GPAI_Belgrade_Declaration_2024
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/GPAI_Belgrade_Declaration_2024.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/GPAI_Belgrade_Declaration_2024.pdf
+- doc_id: ref-governing-ai-for-humanity-final-report
+  title: Governing AI for Humanity Final Report
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Governing%20AI%20for%20Humanity%20Final%20Report.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Governing AI
+    for Humanity Final Report.pdf
+- doc_id: ref-india-national-ai-strategy-niti
+  title: India_National_AI_Strategy_NITI
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/India_National_AI_Strategy_NITI.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/India_National_AI_Strategy_NITI.pdf
+- doc_id: ref-india-responsible-ai-principles-2021
+  title: India_Responsible_AI_Principles_2021
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/India_Responsible_AI_Principles_2021.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/India_Responsible_AI_Principles_2021.pdf
+- doc_id: ref-japan-ai-basic-plan-2025
+  title: Japan_AI_Basic_Plan_2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Japan_AI_Basic_Plan_2025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Japan_AI_Basic_Plan_2025.pdf
+- doc_id: ref-kenya-ai-strategy-2025-2030
+  title: Kenya_AI_Strategy_2025-2030
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Kenya_AI_Strategy_2025-2030.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Kenya_AI_Strategy_2025-2030.pdf
+- doc_id: ref-kenya-ai-strategy-2025-2030-summary
+  title: Kenya_AI_Strategy_2025_2030_summary
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Kenya_AI_Strategy_2025_2030_summary.txt
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Kenya_AI_Strategy_2025_2030_summary.txt
+- doc_id: ref-kenya-ai-strategy-implementation-roadmap-2025-2030
+  title: Kenya_AI_Strategy_Implementation_Roadmap_2025-2030
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Kenya_AI_Strategy_Implementation_Roadmap_2025-2030.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Kenya_AI_Strategy_Implementation_Roadmap_2025-2030.pdf
+- doc_id: ref-korea-national-ai-strategy-2019
+  title: Korea_National_AI_Strategy_2019
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Korea_National_AI_Strategy_2019.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Korea_National_AI_Strategy_2019.pdf
+- doc_id: ref-list-of-natl-and-multilateral-initiatives-updated-2026-03-15-2
+  title: List_of_natl_and_multilateral_Initiatives_updated_2026_03_15 (2)
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/List_of_natl_and_multilateral_Initiatives_updated_2026_03_15%20(2).docx
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/List_of_natl_and_multilateral_Initiatives_updated_2026_03_15
+    (2).docx
+- doc_id: ref-mercosur-human-rights-ai-declaration-2023
+  title: MERCOSUR_Human_Rights_AI_Declaration_2023
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/MERCOSUR_Human_Rights_AI_Declaration_2023.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/MERCOSUR_Human_Rights_AI_Declaration_2023.pdf
+- doc_id: ref-montevideo-declaration-ai-2024
+  title: Montevideo_Declaration_AI_2024
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Montevideo_Declaration_AI_2024.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Montevideo_Declaration_AI_2024.pdf
+- doc_id: ref-nigeria-nitda-ai-transformation-roadmap-2025
+  title: Nigeria_NITDA_AI_Transformation_Roadmap_2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Nigeria_NITDA_AI_Transformation_Roadmap_2025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Nigeria_NITDA_AI_Transformation_Roadmap_2025.pdf
+- doc_id: ref-pai-policy-alignment-ai-transparency-2024
+  title: PAI_Policy_Alignment_AI_Transparency_2024
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/PAI_Policy_Alignment_AI_Transparency_2024.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/PAI_Policy_Alignment_AI_Transparency_2024.pdf
+- doc_id: ref-peru-national-ai-strategy-2021-2026
+  title: Peru_National_AI_Strategy_2021-2026
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Peru_National_AI_Strategy_2021-2026.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Peru_National_AI_Strategy_2021-2026.pdf
+- doc_id: ref-rwanda-national-ai-policy-2023
+  title: Rwanda_National_AI_Policy_2023
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Rwanda_National_AI_Policy_2023.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Rwanda_National_AI_Policy_2023.pdf
+- doc_id: ref-see-turkiye-ai-ethics-media-declaration-2025
+  title: SEE_Turkiye_AI_Ethics_Media_Declaration_2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/SEE_Turkiye_AI_Ethics_Media_Declaration_2025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/SEE_Turkiye_AI_Ethics_Media_Declaration_2025.pdf
+- doc_id: ref-santiago-declaration-ethical-ai-2023
+  title: Santiago_Declaration_Ethical_AI_2023
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Santiago_Declaration_Ethical_AI_2023.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Santiago_Declaration_Ethical_AI_2023.pdf
+- doc_id: ref-saudi-arabia-nsdai
+  title: Saudi_Arabia_NSDAI
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Saudi_Arabia_NSDAI.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Saudi_Arabia_NSDAI.pdf
+- doc_id: ref-singapore-model-ai-governance-genai-2024
+  title: Singapore_Model_AI_Governance_GenAI_2024
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Singapore_Model_AI_Governance_GenAI_2024.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Singapore_Model_AI_Governance_GenAI_2024.pdf
+- doc_id: ref-singapore-nais-2-0
+  title: Singapore_NAIS_2.0
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Singapore_NAIS_2.0.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Singapore_NAIS_2.0.pdf
+- doc_id: ref-smart-africa-ai-blueprint-2021
+  title: Smart_Africa_AI_Blueprint_2021
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Smart_Africa_AI_Blueprint_2021.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Smart_Africa_AI_Blueprint_2021.pdf
+- doc_id: ref-spain-national-ai-strategy-enia-2023
+  title: Spain_National_AI_Strategy_ENIA_2023
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Spain_National_AI_Strategy_ENIA_2023.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Spain_National_AI_Strategy_ENIA_2023.pdf
+- doc_id: ref-technology-and-innovation-report-2025
+  title: Technology and Innovation Report 2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Technology%20and%20Innovation%20Report%202025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Technology and
+    Innovation Report 2025.pdf
+- doc_id: ref-turing-ai-governance-india
+  title: Turing_AI_Governance_India
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Turing_AI_Governance_India.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Turing_AI_Governance_India.pdf
+- doc_id: ref-turing-ai-governance-singapore
+  title: Turing_AI_Governance_Singapore
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Turing_AI_Governance_Singapore.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Turing_AI_Governance_Singapore.pdf
+- doc_id: ref-turkiye-national-ai-strategy-2021-2025
+  title: Turkiye_National_AI_Strategy_2021-2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Turkiye_National_AI_Strategy_2021-2025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Turkiye_National_AI_Strategy_2021-2025.pdf
+- doc_id: ref-uk-ai-opportunities-action-plan-2025
+  title: UK_AI_Opportunities_Action_Plan_2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/UK_AI_Opportunities_Action_Plan_2025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/UK_AI_Opportunities_Action_Plan_2025.pdf
+- doc_id: ref-uk-national-ai-strategy
+  title: UK_National_AI_Strategy
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/UK_National_AI_Strategy.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/UK_National_AI_Strategy.pdf
+- doc_id: ref-unctad-tir2025-ch3-ai-opportunities
+  title: UNCTAD_TIR2025_Ch3_AI_Opportunities
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/UNCTAD_TIR2025_Ch3_AI_Opportunities.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/UNCTAD_TIR2025_Ch3_AI_Opportunities.pdf
+- doc_id: ref-unctad-tir2025-ch4-national-ai-policies
+  title: UNCTAD_TIR2025_Ch4_National_AI_Policies
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/UNCTAD_TIR2025_Ch4_National_AI_Policies.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/UNCTAD_TIR2025_Ch4_National_AI_Policies.pdf
+- doc_id: ref-un-iawg-ai-terms-of-reference-2021
+  title: UN_IAWG_AI_Terms_of_Reference_2021
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/UN_IAWG_AI_Terms_of_Reference_2021.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/UN_IAWG_AI_Terms_of_Reference_2021.pdf
+- doc_id: ref-un-system-white-paper-ai-governance-2024
+  title: UN_System_White_Paper_AI_Governance_2024
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/UN_System_White_Paper_AI_Governance_2024.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/UN_System_White_Paper_AI_Governance_2024.pdf
+- doc_id: ref-usa-americas-ai-action-plan-2025
+  title: USA_Americas_AI_Action_Plan_2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/USA_Americas_AI_Action_Plan_2025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/USA_Americas_AI_Action_Plan_2025.pdf
+- doc_id: ref-us-ai-rd-strategic-plan-2023
+  title: US_AI_RD_Strategic_Plan_2023
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/US_AI_RD_Strategic_Plan_2023.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/US_AI_RD_Strategic_Plan_2023.pdf
+- doc_id: ref-who-content-9789240029200
+  title: WHO Content 9789240029200
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/WHO%20Content%209789240029200.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/WHO Content 9789240029200.pdf
+- doc_id: ref-wto-world-trade-report-2025-ai
+  title: WTO_World_Trade_Report_2025_AI
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/WTO_World_Trade_Report_2025_AI.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/WTO_World_Trade_Report_2025_AI.pdf
+- doc_id: ref-windhoek-statement-ai-southern-africa-2022
+  title: Windhoek_Statement_AI_Southern_Africa_2022
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Windhoek_Statement_AI_Southern_Africa_2022.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Windhoek_Statement_AI_Southern_Africa_2022.pdf
+- doc_id: ref-zambia-ai-strategy-2024-2026
+  title: Zambia_AI_Strategy_2024_2026
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/Zambia_AI_Strategy_2024_2026.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/Zambia_AI_Strategy_2024_2026.pdf
+- doc_id: ref-sample-national-strategy-ethiopia
+  title: sample_national_strategy_ethiopia
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/sample_national_strategy_ethiopia.txt
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/sample_national_strategy_ethiopia.txt
+- doc_id: ref-sample-national-strategy-saudi
+  title: sample_national_strategy_saudi
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Strategies/sample_national_strategy_saudi.txt
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Strategies/sample_national_strategy_saudi.txt
+- doc_id: ref-2024-waic-final-ai-for-good-use-cases-collection
+  title: 2024-WAIC-Final-AI for Good Use Cases Collection
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Use_Cases/2024-WAIC-Final-AI%20for%20Good%20Use%20Cases%20Collection.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Use_Cases/2024-WAIC-Final-AI
+    for Good Use Cases Collection.pdf
+- doc_id: ref-innovate-for-impact-geneva-ai-for-good-2025
+  title: Innovate-for-impact-Geneva-AI for Good 2025
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Use_Cases/Innovate-for-impact-Geneva-AI%20for%20Good%202025.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Use_Cases/Innovate-for-impact-Geneva-AI
+    for Good 2025.pdf
+- doc_id: ref-ksa-t-ai4g-ai4good-2024-2-pdf-e
+  title: KSA.T-AI4G-AI4GOOD-2024-2-PDF-E
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Use_Cases/KSA.T-AI4G-AI4GOOD-2024-2-PDF-E.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Use_Cases/KSA.T-AI4G-AI4GOOD-2024-2-PDF-E.pdf
+- doc_id: ref-t-rec-y-3172-201906-i-pdf-e
+  title: T-REC-Y.3172-201906-I!!PDF-E
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/AI_Use_Cases/T-REC-Y.3172-201906-I!!PDF-E.pdf
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/AI_Use_Cases/T-REC-Y.3172-201906-I!!PDF-E.pdf
+- doc_id: ref-inputs
+  title: Inputs
+  issuer: as named in the upstream file
+  jurisdiction: global
+  instrument_type: strategy
+  domain: cross
+  date: null
+  url: https://github.com/CrashingGuru/ITUAIReadiness/blob/84010da/simulation/server/knowledge/InputDocs/Inputs.md
+  licence: Third-party document. Not redistributed. See the upstream repository and
+    the issuer.
+  redistributable: false
+  upstream_path: simulation/server/knowledge/InputDocs/Inputs.md

@@ -1,0 +1,5 @@
+{"action_id": "S5-seed2-0002-00", "args": {}, "phase": "T0", "role": "service_operator", "target": "psa", "type": "switch_to_manual_service"}
+{"action_id": "S5-seed2-0004-00", "args": {}, "phase": "T1", "role": "ict_regulator", "target": "service_operator", "type": "require_outage_report"}
+{"action_id": "S5-seed2-0004-01", "args": {}, "phase": "T1", "role": "ict_regulator", "target": "psa", "type": "residency_review"}
+{"action_id": "S5-seed2-0006-00", "args": {}, "phase": "T2", "role": "dpa", "target": "psa", "type": "open_inquiry"}
+{"action_id": "S5-seed2-0007-00", "args": {"gaps": 2, "seed": 2}, "phase": "T5", "role": "gap_analyst", "target": "exercise", "type": "produce_gap_register"}

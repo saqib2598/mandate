@@ -1,0 +1,9 @@
+role: conductor
+institution: Exercise control
+may_message: false
+powers:
+  - name: release_inject
+  - name: route_message
+  - name: enforce_turn_order
+may_not:
+  - any substantive action

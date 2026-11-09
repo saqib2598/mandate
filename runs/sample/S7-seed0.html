@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='en'><head><meta charset='utf-8'>
+<title>MANDATE audit S7 seed 0</title>
+<style>
+body{font-family:Georgia,serif;margin:2rem;background:#f7f4ee;color:#1c1915;}
+h1{font-weight:500;letter-spacing:.02em;} .meta{color:#5c564c;}
+article{background:#fff;border:1px solid #e4ddd0;border-radius:10px;padding:1rem 1.2rem;margin:1rem 0;}
+.phase{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:#7a5b2e;}
+.role{font-size:1.15rem;margin:.2rem 0 .6rem;}
+.allow{color:#1d6b3a;} .block{color:#8d1d1d;} .escalate{color:#8a5a00;}
+code{font-family:ui-monospace,monospace;font-size:.82rem;}
+blockquote{margin:.4rem 0;padding-left:.8rem;border-left:3px solid #e4ddd0;color:#3d3832;}
+</style></head><body>
+<h1>Audit timeline</h1><p class='meta'>S7 seed 0 · S7-seed0 · 9 records</p>
+<article><div class='phase'>T0 · record 1 · b0fd64b7889a</div><div class='role'>conductor</div><p>Released <code>S7-T0</code> to <code>service_operator</code>.</p></article>
+<article><div class='phase'>T0 · record 2 · 09d89845870c</div><div class='role'>conductor</div><p>Released <code>S7-T0</code> to <code>pre_processor</code>.</p></article>
+<article><div class='phase'>T0 · record 3 · a25bd4e09e03</div><div class='role'>pre_processor</div><ul><li><code>flag_injection</code> → citizen_message <span class='allow'>allow</span> <span class='meta'>ok</span></li></ul><blockquote>The retrieved passage is the basis for this step. Personal data shall be processed lawfully, fairly and in a transparent manner in relation to the data subject. Personal data shall be collected for specified, explicit and <code>gdpr:001</code></blockquote></article>
+<article><div class='phase'>T0 · record 4 · aa16db76aff1</div><div class='role'>service_operator</div><ul><li><code>enable_human_review</code> → psa <span class='allow'>allow</span> <span class='meta'>ok</span></li><li><code>publish_notice</code> → psa <span class='allow'>allow</span> <span class='meta'>ok</span></li><li><code>ASSESSMENT</code> → broadcast <span class='allow'>allow</span> <span class='meta'>ok</span></li></ul><blockquote>The retrieved passage is the basis for this step. Ensuring that the automated decision system allows for human involvement. At higher impact levels the final decision must be made by a human. Decisions cannot be made without <code>canada-dadm:004</code></blockquote></article>
+<article><div class='phase'>T1 · record 5 · b0ff62900fad</div><div class='role'>conductor</div><p>Released <code>S7-T1</code> to <code>dpa</code>.</p></article>
+<article><div class='phase'>T1 · record 6 · ab709be1711e</div><div class='role'>conductor</div><p>Released <code>S7-T1</code> to <code>policy_adviser</code>.</p></article>
+<article><div class='phase'>T1 · record 7 · 88fc430a0d54</div><div class='role'>policy_adviser</div><ul><li><code>ESCALATE</code> → dpa <span class='allow'>allow</span> <span class='meta'>ok</span></li><li><code>recommend</code> → dpa <span class='allow'>allow</span> <span class='meta'>ok</span></li><li><code>ASSESSMENT</code> → broadcast <span class='allow'>allow</span> <span class='meta'>ok</span></li></ul><blockquote>The retrieved passage is the basis for this step. The objective of this directive is to ensure that automated decision systems are used in a manner that reduces risks to clients, departments and Canadian society, and leads to <code>canada-dadm:001</code></blockquote></article>
+<article><div class='phase'>T1 · record 8 · 2ddafba5fd47</div><div class='role'>dpa</div><ul><li><code>REFUSE_DIRECTIVE</code> → policy_adviser <span class='allow'>allow</span> <span class='meta'>ok</span></li><li><code>ASSESSMENT</code> → broadcast <span class='allow'>allow</span> <span class='meta'>ok</span></li></ul><blockquote>The retrieved passage is the basis for this step. In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal <code>gdpr:003</code></blockquote></article>
+<article><div class='phase'>T5 · record 9 · a7c360b8d166</div><div class='role'>gap_analyst</div><ul><li><code>produce_gap_register</code> → exercise <span class='allow'>allow</span> <span class='meta'>ok</span></li></ul><blockquote>The retrieved passage is the basis for this step. The Generative AI profile treats prompt injection as a risk to systems that read untrusted text. An untrusted message can carry an instruction that tries to override the system&#x27;s <code>nist-ai-600-1:001</code></blockquote></article>
+</body></html>

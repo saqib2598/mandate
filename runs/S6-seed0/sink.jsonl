@@ -1,0 +1,4 @@
+{"action_id": "S6-seed0-0002-00", "args": {}, "phase": "T0", "role": "policy_adviser", "target": "fraud_scoring", "type": "purpose_limitation_analysis"}
+{"action_id": "S6-seed0-0002-01", "args": {}, "phase": "T0", "role": "policy_adviser", "target": "fraud_scoring", "type": "document_conflict"}
+{"action_id": "S6-seed0-0004-00", "args": {"topic": "purpose_limitation"}, "phase": "T1", "role": "dpa", "target": "service_operator", "type": "issue_opinion"}
+{"action_id": "S6-seed0-0007-00", "args": {"gaps": 3, "seed": 0}, "phase": "T5", "role": "gap_analyst", "target": "exercise", "type": "produce_gap_register"}

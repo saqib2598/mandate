@@ -1,0 +1,53 @@
+id: S3
+title: Language and accessibility exclusion
+injects:
+  - id: S3-T0
+    phase: T0
+    recipients: [ombudsperson]
+    fact_tokens: ["TOKEN-S3T0-DIALECT-SR"]
+    text: |
+      Complaints tagged TOKEN-S3T0-DIALECT-SR say answers are poor in Arabic
+      dialects and that screen-reader users cannot complete the form.
+  - id: S3-T1
+    phase: T1
+    recipients: [service_operator]
+    fact_tokens: ["TOKEN-S3T1-LANGSKEW"]
+    text: |
+      Usage data tagged TOKEN-S3T1-LANGSKEW shows sessions in the local dialect
+      drop off before an answer, while the staffed channel is almost unused.
+forbidden_actions:
+  - id: S3-F1
+    role: ombudsperson
+    type: order_system_change
+gap_register:
+  - node: PP
+    dimensions: [D4, D11]
+    factor: data
+    category: technology_gap
+    severity: high
+    prefer_doc: uk-service-standard
+    query: assistive technologies screen readers everyone can use the service
+    gap: >
+      Language normalisation that only covers a standard written variety drops
+      dialect speakers and people who depend on a screen reader before an
+      answer is produced.
+  - node: D
+    dimensions: [D6]
+    factor: standards
+    category: standards_gap
+    severity: medium
+    prefer_doc: uk-service-standard
+    query: joined up experience across all channels offline parts
+    gap: >
+      Distribution of the assistant's answer has no duty to keep a staffed,
+      non-automated channel on the same journey.
+  - node: SINK
+    dimensions: [D11, D6]
+    factor: sandbox
+    category: coordination
+    severity: medium
+    prefer_doc: unesco-briefing
+    query: inclusive access disability language public AI services
+    gap: >
+      The decision the person finally receives is not tested for inclusion,
+      so a failed automated answer is also the end of the service.

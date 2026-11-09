@@ -1,0 +1,14 @@
+role: ombudsperson
+institution: Citizen advocate
+may_message: true
+powers:
+  - name: receive_complaint
+    legal_basis_doc: uk-service-standard
+  - name: demand_explanation
+    legal_basis_doc: canada-dadm
+  - name: demand_appeal_route
+    legal_basis_doc: gdpr
+  - name: publish_finding
+    legal_basis_doc: canada-dadm
+may_not:
+  - order system changes

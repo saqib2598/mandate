@@ -1,0 +1,5 @@
+{"action_id": "S2-seed2-0002-01", "args": {"topic": "possible_personal_data_disclosure"}, "phase": "T0", "role": "service_operator", "target": "dpa", "type": "NOTIFY"}
+{"action_id": "S2-seed2-0002-02", "args": {"summary": "The assistant is contained. The authority is notified without a case file."}, "phase": "T0", "role": "service_operator", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S2-seed2-0004-01", "args": {"summary": "An inquiry is open. No hosting ruling is requested."}, "phase": "T1", "role": "dpa", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S2-seed2-0007-00", "args": {"summary": "Containment still holds while the affected-person count is confirmed."}, "phase": "T2", "role": "service_operator", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S2-seed2-0008-01", "args": {"summary": "Notification to the authority follows the statutory clock."}, "phase": "T2", "role": "dpa", "target": "broadcast", "type": "ASSESSMENT"}

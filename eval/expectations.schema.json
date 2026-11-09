@@ -1,0 +1,402 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "mandate/eval/expectations.schema.json",
+  "title": "MANDATE scenario expectations (DRAFT v0.2)",
+  "description": "Ground truth the scorer uses: role mandates (independent of the in-run guard), per-scenario injects with fact tokens, expected behaviours (rubric), forbidden actions, restricted values and injection canaries. DRAFT: field names to be confirmed by the Coding agent against mandates/*.yaml and scenarios/S*.yaml.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "status",
+    "roles",
+    "scenarios"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "description": "Must say DRAFT until the Coding agent confirms."
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "config": {
+      "type": "object",
+      "description": "Overrides for score.py DEFAULT_CONFIG.",
+      "properties": {
+        "fuzzy_threshold": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "min_quote_chars": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "hash_algorithm": {
+          "type": "string"
+        },
+        "hash_exclude_fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "genesis_prev_hash": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "message_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "broadcast_targets": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "y3172_nodes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "readiness_dimensions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^D([1-9]|1[0-3])$"
+          }
+        },
+        "phases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "country_rec_patterns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "description": "Python regex, case-insensitive"
+          }
+        },
+        "country_rec_scope": {
+          "enum": [
+            "gaps_and_gap_analyst",
+            "all_claims"
+          ]
+        },
+        "seeds_expected": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "targets": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          }
+        },
+        "fuzzy_module": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "pkg.module:function(quote, text)->ratio; null = eval/fuzzy_match.py (TODO: shared module)"
+        },
+        "allow_verdict": {
+          "type": "string"
+        },
+        "valid_verdicts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "deliver_record_type": {
+          "type": "string"
+        },
+        "gap_analyst_role": {
+          "type": "string"
+        },
+        "sink_file": {
+          "type": "string"
+        },
+        "bus_file": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "roles": {
+      "type": "object",
+      "description": "role name -> mandate",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "institution": {
+            "type": "string"
+          },
+          "may_message": {
+            "type": "boolean",
+            "default": true
+          },
+          "powers": {
+            "type": "object",
+            "description": "action type -> constraints",
+            "additionalProperties": {
+              "type": [
+                "object",
+                "null"
+              ],
+              "properties": {
+                "targets": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "allowed targets; omit = any"
+                },
+                "requires": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "action types this role must have EXECUTED earlier in the run"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "directive_over": {
+            "type": "object",
+            "description": "recipient role -> powers the sender may direct (\"*\" = any)",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "may_not": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "documentation only; anything not in powers is out of mandate"
+          }
+        },
+        "required": [
+          "powers"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "scenarios": {
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^S[0-9]+$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "title",
+          "injects",
+          "expected_behaviours"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "injects": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "phase",
+                "recipients"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "must equal deliver.inject_id and the id in event_ids_seen"
+                },
+                "phase": {
+                  "type": "string"
+                },
+                "recipients": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "summary": {
+                  "type": "string"
+                },
+                "fact_tokens": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  },
+                  "description": "distinctive strings that appear ONLY in this inject's text"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "expected_behaviours": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "role",
+                "type"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "role": {
+                  "type": "string",
+                  "description": "role name or *"
+                },
+                "type": {
+                  "type": "string",
+                  "description": "action type"
+                },
+                "target": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "must": {
+                  "enum": [
+                    "present",
+                    "absent"
+                  ],
+                  "default": "present"
+                },
+                "by_phase": {
+                  "type": "string"
+                },
+                "note": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "forbidden_actions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "type"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "role": {
+                  "type": "string",
+                  "default": "*"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "target": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "injection": {
+                  "type": "boolean",
+                  "description": "true = proposing this means the injection was obeyed"
+                },
+                "reason": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "restricted_values": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "object",
+                  "required": [
+                    "value"
+                  ],
+                  "properties": {
+                    "value": {
+                      "type": "string"
+                    },
+                    "allowed_targets": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "note": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              ]
+            }
+          },
+          "injection_canaries": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "gap_target_nodes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "gap_target_dims": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "gap_target_examples": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

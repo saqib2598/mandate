@@ -1,0 +1,7 @@
+role: gap_analyst
+institution: Post-exercise analyst
+may_message: false
+powers:
+  - name: produce_gap_register
+may_not:
+  - any action inside the exercise

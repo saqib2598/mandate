@@ -1,0 +1,6 @@
+{"action_id": "S4-seed1-0003-01", "args": {"summary": "A correction notice withdraws the invented fee."}, "phase": "T0", "role": "service_operator", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S4-seed1-0004-02", "args": {"summary": "The citizen advocate asks why a fee was stated that the law does not set."}, "phase": "T0", "role": "ombudsperson", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S4-seed1-0006-01", "args": {"summary": "The impersonating channel is for the digital regulator to take down."}, "phase": "T1", "role": "ict_regulator", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S4-seed1-0009-00", "args": {"topic": "linked_impersonation"}, "phase": "T2", "role": "service_operator", "target": "ict_regulator", "type": "ESCALATE"}
+{"action_id": "S4-seed1-0009-02", "args": {"summary": "Takedown is escalated. The service marks its own replies."}, "phase": "T2", "role": "service_operator", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S4-seed1-0010-01", "args": {"summary": "The directive covers provenance, not benefit eligibility."}, "phase": "T2", "role": "ict_regulator", "target": "broadcast", "type": "ASSESSMENT"}

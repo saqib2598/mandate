@@ -1,0 +1,15 @@
+role: policy_adviser
+institution: Ministry policy and legal adviser
+may_message: true
+powers:
+  - name: recommend
+    legal_basis_doc: canada-dadm
+  - name: draft_guidance
+    legal_basis_doc: canada-dadm
+  - name: purpose_limitation_analysis
+    legal_basis_doc: gdpr
+  - name: document_conflict
+    legal_basis_doc: syri-briefing
+may_not:
+  - order suspension
+  - sanction

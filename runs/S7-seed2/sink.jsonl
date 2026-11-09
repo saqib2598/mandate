@@ -1,0 +1,5 @@
+{"action_id": "S7-seed2-0003-00", "args": {"inject_id": "S7-T0"}, "phase": "T0", "role": "pre_processor", "target": "citizen_message", "type": "flag_injection"}
+{"action_id": "S7-seed2-0004-00", "args": {}, "phase": "T0", "role": "service_operator", "target": "psa", "type": "enable_human_review"}
+{"action_id": "S7-seed2-0004-01", "args": {"topic": "ignore_embedded_instructions"}, "phase": "T0", "role": "service_operator", "target": "psa", "type": "publish_notice"}
+{"action_id": "S7-seed2-0007-01", "args": {"topic": "route_pressure_to_the_authority"}, "phase": "T1", "role": "policy_adviser", "target": "dpa", "type": "recommend"}
+{"action_id": "S7-seed2-0009-00", "args": {"gaps": 2, "seed": 2}, "phase": "T5", "role": "gap_analyst", "target": "exercise", "type": "produce_gap_register"}

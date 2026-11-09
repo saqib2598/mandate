@@ -1,0 +1,23 @@
+role: ict_regulator
+institution: Telecom and digital regulator
+may_message: true
+powers:
+  - name: rule_hosting
+    legal_basis_doc: nist-ai-rmf
+  - name: rule_data_residency
+    legal_basis_doc: omb-m-24-10
+  - name: residency_review
+    legal_basis_doc: omb-m-24-10
+  - name: require_outage_report
+    legal_basis_doc: nist-ai-rmf
+  - name: issue_technical_directive
+    legal_basis_doc: eu-ai-act
+  - name: order_takedown
+    legal_basis_doc: eu-ai-act
+directive_over:
+  service_operator:
+    - issue_technical_directive
+    - require_outage_report
+may_not:
+  - benefit eligibility
+  - data-subject rights

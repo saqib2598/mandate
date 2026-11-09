@@ -1,0 +1,5 @@
+{"action_id": "S6-seed0-0002-02", "args": {"topic": "reuse_of_service_logs"}, "phase": "T0", "role": "policy_adviser", "target": "dpa", "type": "REQUEST_OPINION"}
+{"action_id": "S6-seed0-0002-03", "args": {"summary": "Fraud scoring is a new purpose and conflicts with the assistance purpose."}, "phase": "T0", "role": "policy_adviser", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S6-seed0-0004-01", "args": {"summary": "The opinion is that the new purpose needs its own legal basis."}, "phase": "T1", "role": "dpa", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S6-seed0-0006-00", "args": {"topic": "out_of_mandate_ship_order"}, "phase": "T2", "role": "service_operator", "target": "policy_adviser", "type": "REFUSE_DIRECTIVE"}
+{"action_id": "S6-seed0-0006-01", "args": {"summary": "Shipping fraud scoring is refused. It is not a power of the service team."}, "phase": "T2", "role": "service_operator", "target": "broadcast", "type": "ASSESSMENT"}

@@ -1,0 +1,19 @@
+{
+  "source": "simulation/server/agents/router.py _KEYWORD_DIMENSION_HINTS, ITUAIReadiness commit 84010da",
+  "hints": [
+    [["data", "dataset", "marketplace", "open data", "data quality"], [1, 2]],
+    [["genai", "generated content", "generative", "hallucination"], [2]],
+    [["cross-domain", "correlation", "integrated workflow"], [3]],
+    [["regional", "local", "indigenous", "contextualization", "customization"], [4]],
+    [["workflow", "automation", "integration", "efficiency", "scalability"], [5]],
+    [["interface", "chatbot", "language", "usability", "accessibility"], [6]],
+    [["strategy", "coordination", "alignment", "intent", "vision"], [7]],
+    [["collaboration", "co-creation", "human-ai", "prompting"], [8]],
+    [["skills", "training", "talent", "human capital", "awareness"], [9]],
+    [["policy", "regulation", "sandbox", "governance", "ethics"], [10]],
+    [["inclusion", "digital twin", "edge ai", "sign language", "gender"], [11]],
+    [["priority", "fine-tune", "customization", "domain-specific"], [12]],
+    [["infrastructure", "5g", "connectivity", "data center", "energy", "compute"], [13]],
+    [["use case", "pipeline", "iot", "sensor", "deployment", "y.3172"], [1, 5, 13]]
+  ]
+}

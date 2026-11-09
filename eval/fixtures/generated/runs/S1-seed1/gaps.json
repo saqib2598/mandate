@@ -1,0 +1,28 @@
+[
+ {
+  "node": "P",
+  "dimensions": [
+   "D10"
+  ],
+  "category": "legislative",
+  "gap": "No mandated human review for benefit denials",
+  "global_example": {
+   "source_chunk_id": "FAKE-CASE-020",
+   "quote": "no human checked the automated letters"
+  },
+  "severity": "medium"
+ },
+ {
+  "node": "M",
+  "dimensions": [
+   9
+  ],
+  "category": "unclear_responsibilities",
+  "gap": "Appeal route not built into the model output",
+  "global_example": {
+   "source_chunk_id": "FAKE-ADM-001",
+   "quote": "the affected person must be told how to appeal"
+  },
+  "severity": "medium"
+ }
+]

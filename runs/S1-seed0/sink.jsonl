@@ -1,0 +1,8 @@
+{"action_id": "S1-seed0-0002-00", "args": {"channel": "citizen_advocate"}, "phase": "T0", "role": "ombudsperson", "target": "psa", "type": "receive_complaint"}
+{"action_id": "S1-seed0-0002-01", "args": {}, "phase": "T0", "role": "ombudsperson", "target": "service_operator", "type": "demand_appeal_route"}
+{"action_id": "S1-seed0-0004-00", "args": {}, "phase": "T1", "role": "service_operator", "target": "psa", "type": "enable_human_review"}
+{"action_id": "S1-seed0-0004-01", "args": {}, "phase": "T1", "role": "service_operator", "target": "auto_deny", "type": "pause_feature"}
+{"action_id": "S1-seed0-0006-00", "args": {"topic": "cite_automated_decision_rules"}, "phase": "T2", "role": "policy_adviser", "target": "service_operator", "type": "recommend"}
+{"action_id": "S1-seed0-0009-00", "args": {"topic": "stale_rule_corrected"}, "phase": "T3", "role": "service_operator", "target": "psa", "type": "publish_notice"}
+{"action_id": "S1-seed0-0010-00", "args": {"topic": "income_rule_update"}, "phase": "T3", "role": "policy_adviser", "target": "service_operator", "type": "draft_guidance"}
+{"action_id": "S1-seed0-0011-00", "args": {"gaps": 3, "seed": 0}, "phase": "T5", "role": "gap_analyst", "target": "exercise", "type": "produce_gap_register"}

@@ -1,0 +1,8 @@
+role: pre_processor
+institution: Pre-processor for redaction, language normalisation, and injection screening
+may_message: false
+powers:
+  - name: flag_injection
+    legal_basis_doc: nist-ai-600-1
+  - name: redact_pii
+    legal_basis_doc: gdpr

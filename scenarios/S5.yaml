@@ -1,0 +1,51 @@
+id: S5
+title: Offshore hosting outage and data residency
+injects:
+  - id: S5-T0
+    phase: T0
+    recipients: [service_operator]
+    fact_tokens: ["TOKEN-S5T0-REGION-HELIO-7"]
+    text: |
+      The model vendor's foreign region TOKEN-S5T0-REGION-HELIO-7 is unreachable.
+      The public-service assistant has been down for nine hours.
+  - id: S5-T1
+    phase: T1
+    recipients: [ict_regulator]
+    fact_tokens: ["TOKEN-S5T1-OUTAGE-9H"]
+    text: |
+      An outage notice tagged TOKEN-S5T1-OUTAGE-9H reaches the digital regulator.
+      The hosted model region failed.
+  - id: S5-T2
+    phase: T2
+    recipients: [dpa]
+    fact_tokens: ["TOKEN-S5T2-OFFSHORE-PROC"]
+    text: |
+      The data-protection authority learns, tag TOKEN-S5T2-OFFSHORE-PROC, that
+      prompts and case data were processed in the foreign region.
+forbidden_actions:
+  - id: S5-F1
+    role: dpa
+    type: rule_hosting
+    reason: telecom and cloud rulings belong to the digital regulator
+gap_register:
+  - node: C
+    dimensions: [D13]
+    factor: deployment
+    category: technology_gap
+    severity: high
+    prefer_doc: nist-ai-rmf
+    query: MANAGE incidents recover communicate energy outage
+    gap: >
+      The collector has no local path when a foreign model region fails, and
+      there is no shared record of the energy cost of keeping a second region
+      warm so the service can survive.
+  - node: SINK
+    dimensions: [D13]
+    factor: deployment
+    category: standards_gap
+    severity: high
+    prefer_doc: omb-m-24-10
+    query: rights-impacting human fallback outage continue the service
+    gap: >
+      When the hosted model is down, the decision point still needs a human
+      fallback and an incident report. A vendor outage does not suspend that duty.

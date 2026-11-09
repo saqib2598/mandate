@@ -1,0 +1,2 @@
+{"action_id": "S3-seed2-0002-02", "args": {"summary": "People using a dialect or a screen reader are not getting a usable answer."}, "phase": "T0", "role": "ombudsperson", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S3-seed2-0004-03", "args": {"summary": "A staffed channel stays open while the language gap is fixed."}, "phase": "T1", "role": "service_operator", "target": "broadcast", "type": "ASSESSMENT"}

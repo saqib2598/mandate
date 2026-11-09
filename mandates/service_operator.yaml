@@ -1,0 +1,29 @@
+role: service_operator
+institution: Ministry digital-service team running the public-service assistant
+may_message: true
+powers:
+  - name: pause_feature
+    legal_basis_doc: canada-dadm
+  - name: rollback_model
+    legal_basis_doc: nist-ai-rmf
+  - name: enable_human_review
+    legal_basis_doc: canada-dadm
+  - name: publish_notice
+    legal_basis_doc: canada-dadm
+  - name: reply_citizen
+    legal_basis_doc: uk-service-standard
+  - name: contain_incident
+    legal_basis_doc: gdpr
+  - name: switch_to_manual_service
+    legal_basis_doc: nist-ai-rmf
+  - name: maintain_non_ai_channel
+    legal_basis_doc: uk-service-standard
+  - name: commission_impact_assessment
+    legal_basis_doc: canada-dadm
+  - name: plan_inclusion_remediation
+    legal_basis_doc: uk-service-standard
+  - name: enable_content_provenance
+    legal_basis_doc: eu-ai-act
+may_not:
+  - fine anyone
+  - rule on legality

@@ -1,0 +1,7 @@
+{"action_id": "S5-seed0-0002-00", "args": {}, "phase": "T0", "role": "service_operator", "target": "psa", "type": "contain_incident"}
+{"action_id": "S5-seed0-0002-01", "args": {}, "phase": "T0", "role": "service_operator", "target": "psa", "type": "enable_human_review"}
+{"action_id": "S5-seed0-0002-02", "args": {}, "phase": "T0", "role": "service_operator", "target": "psa", "type": "maintain_non_ai_channel"}
+{"action_id": "S5-seed0-0002-03", "args": {}, "phase": "T0", "role": "service_operator", "target": "psa", "type": "switch_to_manual_service"}
+{"action_id": "S5-seed0-0004-00", "args": {}, "phase": "T1", "role": "ict_regulator", "target": "service_operator", "type": "require_outage_report"}
+{"action_id": "S5-seed0-0006-00", "args": {}, "phase": "T2", "role": "dpa", "target": "service_operator", "type": "open_inquiry"}
+{"action_id": "S5-seed0-0007-00", "args": {}, "phase": "T5", "role": "gap_analyst", "target": "exercise", "type": "produce_gap_register"}

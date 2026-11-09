@@ -1,0 +1,4 @@
+{"action_id": "S2-seed1-0002-00", "args": {}, "phase": "T0", "role": "service_operator", "target": "psa", "type": "contain_incident"}
+{"action_id": "S2-seed1-0004-00", "args": {}, "phase": "T1", "role": "dpa", "target": "psa", "type": "open_inquiry"}
+{"action_id": "S2-seed1-0008-00", "args": {}, "phase": "T2", "role": "dpa", "target": "service_operator", "type": "require_breach_notification"}
+{"action_id": "S2-seed1-0009-00", "args": {"gaps": 2, "seed": 1}, "phase": "T5", "role": "gap_analyst", "target": "exercise", "type": "produce_gap_register"}

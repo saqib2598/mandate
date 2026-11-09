@@ -1,0 +1,6 @@
+{"action_id": "a1", "type": "demand_appeal_route"}
+{"action_id": "b1", "type": "enable_human_review"}
+{"action_id": "b2", "type": "pause_feature"}
+{"action_id": "b3", "type": "fine"}
+{"action_id": "c1", "type": "order_stop_processing"}
+{"action_id": "g1", "type": "produce_gap_register"}

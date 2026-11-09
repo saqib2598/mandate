@@ -1,0 +1,32 @@
+[
+  {
+    "node": "PP",
+    "dimensions": [
+      "D10",
+      "D2"
+    ],
+    "factor": "data",
+    "category": "technology_gap",
+    "gap": "Untrusted citizen text can carry an instruction that tries to override the task. Without a pre-processor screen, that instruction reaches the model as if it were policy.\n",
+    "global_example": {
+      "source_chunk_id": "nist-ai-600-1:001",
+      "quote": "The Generative AI profile treats prompt injection as a risk to systems that read untrusted text. An untrusted message can carry an instruction that tries to override the system's"
+    },
+    "severity": "high"
+  },
+  {
+    "node": "P",
+    "dimensions": [
+      "D8",
+      "D10"
+    ],
+    "factor": "standards",
+    "category": "coordination",
+    "gap": "A fake directive is not a legal basis. The policy node has to refuse it, and there is no shared way to show another institution that the refusal was the mandated outcome.\n",
+    "global_example": {
+      "source_chunk_id": "canada-dadm:005",
+      "quote": "Consulting with the department's legal services from the concept stage of an automation project to ensure that the use of the automated decision system is compliant with"
+    },
+    "severity": "high"
+  }
+]

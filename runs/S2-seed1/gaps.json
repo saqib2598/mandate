@@ -1,0 +1,31 @@
+[
+  {
+    "node": "PP",
+    "dimensions": [
+      "D1",
+      "D10"
+    ],
+    "factor": "data",
+    "category": "technology_gap",
+    "gap": "Retrieval can place one person's case file into another person's answer when the pre-processor does not isolate personal data from the generation context.\n",
+    "global_example": {
+      "source_chunk_id": "gdpr:001",
+      "quote": "Personal data shall be processed lawfully, fairly and in a transparent manner in relation to the data subject. Personal data shall be collected for specified, explicit and"
+    },
+    "severity": "high"
+  },
+  {
+    "node": "M",
+    "dimensions": [
+      "D10"
+    ],
+    "factor": "standards",
+    "category": "legislative_gap",
+    "gap": "A model that has disclosed personal data has no built-in duty to start the statutory notification clock to the supervisory authority.\n",
+    "global_example": {
+      "source_chunk_id": "gdpr:003",
+      "quote": "In the case of a personal data breach, the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal"
+    },
+    "severity": "high"
+  }
+]

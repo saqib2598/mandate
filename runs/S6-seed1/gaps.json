@@ -1,0 +1,45 @@
+[
+  {
+    "node": "SRC",
+    "dimensions": [
+      "D3"
+    ],
+    "factor": "data",
+    "category": "legislative_gap",
+    "gap": "Service logs collected to answer a citizen are a different source from a fraud-risk score, and the source node does not record the change of purpose.\n",
+    "global_example": {
+      "source_chunk_id": "syri-briefing:001",
+      "quote": "SyRI was a system for linking public-service data and scoring neighbourhoods and people for a risk of social-security fraud. The court held that the legislation did not meet"
+    },
+    "severity": "high"
+  },
+  {
+    "node": "C",
+    "dimensions": [
+      "D7"
+    ],
+    "factor": "standards",
+    "category": "objective_conflict",
+    "gap": "The institution that wants to help an applicant and the institution that wants to score the same person for fraud are pulling the collector in two directions, and the conflict is not represented in the feed.\n",
+    "global_example": {
+      "source_chunk_id": "childcare-briefing:001",
+      "quote": "The tax authority used risk models in the childcare-benefits system and wrongly treated thousands of families as fraudulent. Dual nationality was used as a risk signal. Families"
+    },
+    "severity": "high"
+  },
+  {
+    "node": "P",
+    "dimensions": [
+      "D8",
+      "D10"
+    ],
+    "factor": "standards",
+    "category": "standards_gap",
+    "gap": "An instruction to ship a fraud score sits outside the assistance mandate. The policy node can refuse it, but there is no standard profile for that refusal on a high-risk benefits system.\n",
+    "global_example": {
+      "source_chunk_id": "eu-ai-act:003",
+      "quote": "Annex III lists high-risk AI systems referred to in Article 6(2). Point 5 covers access to and enjoyment of essential private services and essential public services and benefits."
+    },
+    "severity": "high"
+  }
+]

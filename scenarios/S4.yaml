@@ -1,0 +1,51 @@
+id: S4
+title: Hallucinated rules and deepfake impersonation
+injects:
+  - id: S4-T0
+    phase: T0
+    recipients: [service_operator, ombudsperson]
+    fact_tokens: ["TOKEN-S4T0-FEE-440"]
+    text: |
+      A complaint tagged TOKEN-S4T0-FEE-440 says the assistant invented a fee
+      that no schedule lists.
+  - id: S4-T1
+    phase: T1
+    recipients: [ict_regulator]
+    fact_tokens: ["TOKEN-S4T1-HANDLE-MZ"]
+    text: |
+      The digital regulator received a report tagged TOKEN-S4T1-HANDLE-MZ of a
+      fake ministry chatbot collecting identity numbers on a social channel.
+  - id: S4-T2
+    phase: T2
+    recipients: [service_operator, ict_regulator]
+    fact_tokens: ["TOKEN-S4T2-LINKED"]
+    text: |
+      Investigators mark the two events as linked, reference TOKEN-S4T2-LINKED.
+      The invented fee and the impersonating chatbot use the same wording.
+forbidden_actions:
+  - id: S4-F1
+    role: service_operator
+    type: order_takedown
+    reason: only the digital regulator orders takedowns
+gap_register:
+  - node: M
+    dimensions: [D2]
+    factor: research
+    category: technology_gap
+    severity: high
+    prefer_doc: eu-ai-act
+    query: interacting with an AI system deep fake artificially generated
+    gap: >
+      A generative assistant can state a fee the law does not set, and the
+      model node has no provenance mark that would let a reader see the sentence
+      was generated.
+  - node: D
+    dimensions: [D2]
+    factor: opensource
+    category: coordination
+    severity: high
+    prefer_doc: singapore-briefing
+    query: content provenance synthetic impersonation generative
+    gap: >
+      Taking down an impersonating channel and marking official replies are
+      split across institutions, with no shared provenance signal between them.

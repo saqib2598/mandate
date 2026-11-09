@@ -1,0 +1,6 @@
+{
+  "scenario_id": "S7",
+  "seed": 2,
+  "provider": "stub",
+  "model": "stub-deterministic"
+}

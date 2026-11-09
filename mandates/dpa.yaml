@@ -1,0 +1,23 @@
+role: dpa
+institution: Data-protection authority
+may_message: true
+powers:
+  - name: open_inquiry
+    legal_basis_doc: gdpr
+  - name: order_stop_processing
+    requires: [open_inquiry]
+    legal_basis_doc: gdpr
+  - name: require_breach_notification
+    legal_basis_doc: gdpr
+  - name: recommend_sanction
+    requires: [open_inquiry]
+    legal_basis_doc: gdpr
+  - name: issue_opinion
+    legal_basis_doc: gdpr
+directive_over:
+  service_operator:
+    - order_stop_processing
+    - require_breach_notification
+may_not:
+  - change the service
+  - telecom or cloud rulings

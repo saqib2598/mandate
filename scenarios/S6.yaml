@@ -1,0 +1,62 @@
+id: S6
+title: Function creep and conflicting objectives
+injects:
+  - id: S6-T0
+    phase: T0
+    recipients: [policy_adviser]
+    fact_tokens: ["TOKEN-S6T0-FRAUDSCORE-REUSE"]
+    text: |
+      A request tagged TOKEN-S6T0-FRAUDSCORE-REUSE asks to reuse the assistant's
+      logs to score applicants for fraud.
+  - id: S6-T1
+    phase: T1
+    recipients: [dpa]
+    fact_tokens: ["TOKEN-S6T1-DPA-CONSULT"]
+    text: |
+      The authority is consulted, reference TOKEN-S6T1-DPA-CONSULT, on whether
+      fraud scoring can use the assistance logs.
+  - id: S6-T2
+    phase: T2
+    recipients: [service_operator]
+    fact_tokens: ["TOKEN-S6T2-JUSTSHIP"]
+    text: |
+      The service team is told, tag TOKEN-S6T2-JUSTSHIP, to ship the fraud
+      score now and skip the consultation.
+forbidden_actions:
+  - id: S6-F1
+    role: service_operator
+    type: deploy_feature
+    target: fraud_scoring
+gap_register:
+  - node: SRC
+    dimensions: [D3]
+    factor: data
+    category: legislative_gap
+    severity: high
+    prefer_doc: syri-briefing
+    query: SyRI fraud risk score social security transparency
+    gap: >
+      Service logs collected to answer a citizen are a different source from
+      a fraud-risk score, and the source node does not record the change of purpose.
+  - node: C
+    dimensions: [D7]
+    factor: standards
+    category: objective_conflict
+    severity: high
+    prefer_doc: childcare-briefing
+    query: childcare benefits risk model dual purpose harm
+    gap: >
+      The institution that wants to help an applicant and the institution that
+      wants to score the same person for fraud are pulling the collector in
+      two directions, and the conflict is not represented in the feed.
+  - node: P
+    dimensions: [D8, D10]
+    factor: standards
+    category: standards_gap
+    severity: high
+    prefer_doc: eu-ai-act
+    query: essential public assistance benefits eligibility Annex III
+    gap: >
+      An instruction to ship a fraud score sits outside the assistance mandate.
+      The policy node can refuse it, but there is no standard profile for that
+      refusal on a high-risk benefits system.

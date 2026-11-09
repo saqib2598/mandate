@@ -1,0 +1,46 @@
+[
+  {
+    "node": "M",
+    "dimensions": [
+      "D9",
+      "D10"
+    ],
+    "factor": "research",
+    "category": "technology_gap",
+    "gap": "A benefit model can keep applying a superseded income test, and nothing in the model node requires it to surface that the rule is out of date before a denial is produced.\n",
+    "global_example": {
+      "source_chunk_id": "robodebt-briefing:001",
+      "quote": "Robodebt used automated income averaging to raise social-security debts. The Royal Commission found the scheme was unlawful. Debts were asserted against people without a"
+    },
+    "severity": "high"
+  },
+  {
+    "node": "P",
+    "dimensions": [
+      "D10",
+      "D7"
+    ],
+    "factor": "standards",
+    "category": "standards_gap",
+    "gap": "There is no shared machine-readable schema that binds an automated denial to a cited power and a human-review precondition before the decision issues.\n",
+    "global_example": {
+      "source_chunk_id": "canada-dadm:004",
+      "quote": "Ensuring that the automated decision system allows for human involvement. At higher impact levels the final decision must be made by a human. Decisions cannot be made without"
+    },
+    "severity": "high"
+  },
+  {
+    "node": "SINK",
+    "dimensions": [
+      "D9"
+    ],
+    "factor": "deployment",
+    "category": "legislative_gap",
+    "gap": "A person who receives a solely automated denial of a benefit still lacks a guaranteed path, at the moment of the decision, to a human review and a chance to contest it.\n",
+    "global_example": {
+      "source_chunk_id": "gdpr:002",
+      "quote": "The data subject shall have the right not to be subject to a decision based solely on automated processing, including profiling, which produces legal effects concerning him or her"
+    },
+    "severity": "high"
+  }
+]

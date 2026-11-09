@@ -1,0 +1,523 @@
+documents:
+- doc_id: canada-dadm
+  title: Directive on Automated Decision-Making
+  issuer: Treasury Board of Canada Secretariat
+  jurisdiction: national:CA
+  instrument_type: directive
+  domain: gov_services
+  date: '2019-04-01'
+  url: https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32592
+  licence: Open Government Licence – Canada
+  redistributable: true
+  readiness_dims:
+  - D8
+  - D10
+  y3172_nodes:
+  - P
+  - M
+  - SINK
+  readiness_factor: standards
+  source_path: kb/sources/canada-dadm.md
+- doc_id: uk-service-standard
+  title: GOV.UK Service Standard
+  issuer: Government Digital Service, United Kingdom
+  jurisdiction: national:GB
+  instrument_type: guideline
+  domain: gov_services
+  date: '2019-01-01'
+  url: https://www.gov.uk/service-manual/service-standard
+  licence: Open Government Licence v3.0
+  redistributable: true
+  readiness_dims:
+  - D6
+  - D11
+  - D4
+  y3172_nodes:
+  - D
+  - SINK
+  - PP
+  readiness_factor: standards
+  source_path: kb/sources/uk-service-standard.md
+- doc_id: uk-atrs
+  title: Briefing on the Algorithmic Transparency Recording Standard
+  issuer: Original briefing; Standard by the UK Central Digital and Data Office
+  jurisdiction: national:GB
+  instrument_type: guideline
+  domain: gov_services
+  date: '2021-11-01'
+  url: https://www.gov.uk/government/collections/algorithmic-transparency-recording-standard
+  licence: CC0 briefing. The Standard is Open Government Licence v3.0 and is not copied
+    in full.
+  redistributable: true
+  readiness_dims:
+  - D10
+  - D7
+  y3172_nodes:
+  - P
+  - SINK
+  readiness_factor: standards
+  source_path: kb/sources/uk-atrs.md
+- doc_id: omb-m-24-10
+  title: Briefing of OMB memorandum M-24-10
+  issuer: Original briefing of a US Office of Management and Budget memorandum
+  jurisdiction: national:US
+  instrument_type: guideline
+  domain: gov_services
+  date: '2024-03-28'
+  url: https://www.whitehouse.gov/wp-content/uploads/2024/03/M-24-10-Advancing-Governance-Innovation-and-Risk-Management-for-Agency-Use-of-Artificial-Intelligence.pdf
+  licence: CC0 briefing. The memorandum is a US government work in the public domain.
+  redistributable: true
+  readiness_dims:
+  - D10
+  - D13
+  - D8
+  y3172_nodes:
+  - P
+  - SINK
+  - C
+  readiness_factor: standards
+  source_path: kb/sources/omb-m-24-10.md
+- doc_id: nist-ai-rmf
+  title: NIST AI Risk Management Framework 1.0
+  issuer: National Institute of Standards and Technology
+  jurisdiction: national:US
+  instrument_type: standard
+  domain: cross
+  date: '2023-01-26'
+  url: https://doi.org/10.6028/NIST.AI.100-1
+  licence: Public domain (United States government work). Excerpt.
+  redistributable: true
+  readiness_dims:
+  - D10
+  - D13
+  y3172_nodes:
+  - P
+  - C
+  - SINK
+  readiness_factor: standards
+  source_path: kb/sources/nist-ai-rmf.md
+- doc_id: nist-ai-600-1
+  title: Briefing of NIST AI 600-1 Generative AI profile
+  issuer: Original briefing of a NIST publication
+  jurisdiction: national:US
+  instrument_type: guideline
+  domain: data_protection
+  date: '2024-07-26'
+  url: https://doi.org/10.6028/NIST.AI.600-1
+  licence: CC0 briefing. NIST AI 600-1 is a US government work in the public domain.
+  redistributable: true
+  readiness_dims:
+  - D2
+  - D10
+  y3172_nodes:
+  - PP
+  - M
+  - P
+  readiness_factor: data
+  source_path: kb/sources/nist-ai-600-1.md
+- doc_id: eu-ai-act
+  title: Regulation (EU) 2024/1689 (Artificial Intelligence Act), excerpts
+  issuer: European Union
+  jurisdiction: regional
+  instrument_type: law
+  domain: gov_services
+  date: '2024-07-12'
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+  licence: © European Union, 2024. Reuse authorised with attribution (EUR-Lex).
+  redistributable: true
+  readiness_dims:
+  - D10
+  - D2
+  - D8
+  y3172_nodes:
+  - P
+  - M
+  - D
+  readiness_factor: standards
+  source_path: kb/sources/eu-ai-act.md
+- doc_id: gdpr
+  title: Regulation (EU) 2016/679 (GDPR), excerpts
+  issuer: European Union
+  jurisdiction: regional
+  instrument_type: law
+  domain: data_protection
+  date: '2016-04-27'
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679
+  licence: © European Union, 2016. Reuse authorised with attribution (EUR-Lex).
+  redistributable: true
+  readiness_dims:
+  - D1
+  - D10
+  - D8
+  y3172_nodes:
+  - SRC
+  - PP
+  - P
+  - SINK
+  readiness_factor: standards
+  source_path: kb/sources/gdpr.md
+- doc_id: unesco-briefing
+  title: Briefing on the UNESCO Recommendation on the Ethics of Artificial Intelligence
+  issuer: Original briefing
+  jurisdiction: global
+  instrument_type: guideline
+  domain: gov_services
+  date: '2021-11-23'
+  url: https://unesdoc.unesco.org/ark:/48223/pf0000381137
+  licence: CC0 briefing. The UNESCO Recommendation text is not reproduced.
+  redistributable: true
+  readiness_dims:
+  - D11
+  - D4
+  - D10
+  y3172_nodes:
+  - PP
+  - SINK
+  - P
+  readiness_factor: sandbox
+  source_path: kb/sources/unesco-briefing.md
+- doc_id: oecd-briefing
+  title: Briefing on the OECD AI Principles
+  issuer: Original briefing
+  jurisdiction: global
+  instrument_type: declaration
+  domain: cross
+  date: '2024-05-03'
+  url: https://oecd.ai/en/ai-principles
+  licence: CC0 briefing. The OECD instrument is not reproduced.
+  redistributable: true
+  readiness_dims:
+  - D10
+  - D7
+  y3172_nodes:
+  - P
+  - MLFO
+  readiness_factor: standards
+  source_path: kb/sources/oecd-briefing.md
+- doc_id: robodebt-briefing
+  title: Briefing on the Royal Commission into the Robodebt Scheme
+  issuer: Original briefing
+  jurisdiction: national:AU
+  instrument_type: case_report
+  domain: gov_services
+  date: '2023-07-07'
+  url: https://robodebt.royalcommission.gov.au/
+  licence: CC0 briefing. The Royal Commission report is not reproduced.
+  redistributable: true
+  readiness_dims:
+  - D9
+  - D10
+  y3172_nodes:
+  - M
+  - P
+  - SINK
+  readiness_factor: research
+  source_path: kb/sources/robodebt-briefing.md
+- doc_id: syri-briefing
+  title: Briefing on the SyRI judgment
+  issuer: Original briefing
+  jurisdiction: national:NL
+  instrument_type: case_report
+  domain: data_protection
+  date: '2020-02-05'
+  url: https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:RBDHA:2020:1878
+  licence: CC0 briefing. The judgment text is not reproduced.
+  redistributable: true
+  readiness_dims:
+  - D3
+  - D10
+  y3172_nodes:
+  - SRC
+  - P
+  readiness_factor: data
+  source_path: kb/sources/syri-briefing.md
+- doc_id: childcare-briefing
+  title: Briefing on the Dutch childcare-benefits inquiry
+  issuer: Original briefing
+  jurisdiction: national:NL
+  instrument_type: case_report
+  domain: gov_services
+  date: '2020-12-17'
+  url: https://www.tweedekamer.nl/kamerstukken/detail?id=2020Z25785
+  licence: CC0 briefing. The inquiry report is not reproduced.
+  redistributable: true
+  readiness_dims:
+  - D9
+  - D7
+  - D3
+  y3172_nodes:
+  - M
+  - C
+  - P
+  readiness_factor: research
+  source_path: kb/sources/childcare-briefing.md
+- doc_id: singapore-briefing
+  title: Briefing on the Singapore Model AI Governance Framework for Generative AI
+  issuer: Original briefing
+  jurisdiction: national:SG
+  instrument_type: guideline
+  domain: gov_services
+  date: '2024-01-16'
+  url: https://aiverifyfoundation.sg/resources/model-ai-governance-framework-for-generative-ai/
+  licence: CC0 briefing. The framework text is not reproduced.
+  redistributable: true
+  readiness_dims:
+  - D2
+  - D6
+  y3172_nodes:
+  - M
+  - D
+  readiness_factor: opensource
+  source_path: kb/sources/singapore-briefing.md
+- doc_id: coe-briefing
+  title: Briefing on the Council of Europe Framework Convention on Artificial Intelligence
+  issuer: Original briefing
+  jurisdiction: regional
+  instrument_type: law
+  domain: cross
+  date: '2024-09-05'
+  url: https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence
+  licence: CC0 briefing. The treaty text is not reproduced.
+  redistributable: true
+  readiness_dims:
+  - D10
+  - D11
+  y3172_nodes:
+  - P
+  - Sandbox
+  readiness_factor: sandbox
+  source_path: kb/sources/coe-briefing.md
+- doc_id: ref-y3172-summary
+  title: Summary of ITU-T Y.3172
+  issuer: Summary written in the ITUAIReadiness repository
+  jurisdiction: global
+  instrument_type: standard
+  domain: cross
+  date: '2019-06-01'
+  url: https://www.itu.int/rec/T-REC-Y.3172
+  licence: MIT, as part of ITUAIReadiness. This is a summary, not the ITU-T Recommendation.
+  redistributable: true
+  readiness_dims:
+  - D5
+  - D13
+  - D10
+  y3172_nodes:
+  - SRC
+  - C
+  - PP
+  - M
+  - P
+  - D
+  - SINK
+  - MLFO
+  - Sandbox
+  readiness_factor: standards
+  source_path: vendor/ituaireadiness/summaries/ITU-T_Y.3172_summary.txt
+- doc_id: ref-eu-ai-act-summary
+  title: Summary of the EU AI Act
+  issuer: Summary written in the ITUAIReadiness repository
+  jurisdiction: regional
+  instrument_type: law
+  domain: cross
+  date: '2024-08-01'
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689
+  licence: MIT, as part of ITUAIReadiness. This is a summary, not the regulation.
+  redistributable: true
+  readiness_dims:
+  - D10
+  - D7
+  y3172_nodes:
+  - P
+  readiness_factor: standards
+  source_path: vendor/ituaireadiness/summaries/EU_AI_Act_summary.txt
+- doc_id: ref-sandbox-summary
+  title: Summary of the ITU AI for Good sandbox network
+  issuer: Summary written in the ITUAIReadiness repository
+  jurisdiction: global
+  instrument_type: guideline
+  domain: cross
+  date: '2025-01-01'
+  url: https://aiforgood.itu.int/
+  licence: MIT, as part of ITUAIReadiness. This is a summary, not an ITU publication.
+  redistributable: true
+  readiness_dims:
+  - D10
+  - D11
+  y3172_nodes:
+  - Sandbox
+  readiness_factor: sandbox
+  source_path: vendor/ituaireadiness/summaries/ITU_AI4G_Sandbox_summary.txt
+- doc_id: ai-ready-2-dimensions
+  title: AI Readiness 2.0 dimensions
+  issuer: Vendored dimensions.json from ITUAIReadiness
+  jurisdiction: global
+  instrument_type: standard
+  domain: cross
+  date: '2026-01-01'
+  url: https://github.com/CrashingGuru/ITUAIReadiness
+  licence: MIT, vendored dimensions.json
+  redistributable: true
+  readiness_dims:
+  - D1
+  y3172_nodes: []
+  readiness_factor: standards
+  generated: true
+- doc_id: uae-ai-strategy-2031
+  title: UAE National Strategy for Artificial Intelligence 2031
+  issuer: UAE Office of Artificial Intelligence
+  jurisdiction: national:AE
+  instrument_type: strategy
+  domain: gov_services
+  date: '2019-01-01'
+  url: https://ai.gov.ae/strategy/
+  licence: Copyright of the issuer. Context only. Text not redistributed.
+  redistributable: false
+  note: Country context only. Gaps are domain-level.
+- doc_id: uae-ai-charter-2024
+  title: UAE Charter for the Development and Use of Artificial Intelligence
+  issuer: United Arab Emirates
+  jurisdiction: national:AE
+  instrument_type: declaration
+  domain: cross
+  date: '2024-06-01'
+  url: https://ai.gov.ae/
+  licence: Copyright of the issuer. Context only. Text not redistributed.
+  redistributable: false
+  note: Country context only.
+- doc_id: uae-pdpl-45-2021
+  title: Federal Decree-Law No. 45 of 2021 on the Protection of Personal Data
+  issuer: United Arab Emirates
+  jurisdiction: national:AE
+  instrument_type: law
+  domain: data_protection
+  date: '2021-11-28'
+  url: https://uaelegislation.gov.ae/en/legislations/1588
+  licence: Copyright of the issuer. Context only. Text not redistributed.
+  redistributable: false
+  note: Country context only.
+- doc_id: dubai-ai-ethics
+  title: Dubai AI Ethics Principles
+  issuer: Digital Dubai
+  jurisdiction: national:AE
+  instrument_type: guideline
+  domain: gov_services
+  date: '2019-01-01'
+  url: https://www.digitaldubai.ae/
+  licence: Copyright of the issuer. Context only. Text not redistributed.
+  redistributable: false
+  note: Country context only.
+- doc_id: tdra-ict-cloud
+  title: TDRA ICT and cloud policy guidance
+  issuer: Telecommunications and Digital Government Regulatory Authority
+  jurisdiction: national:AE
+  instrument_type: regulation
+  domain: telecom
+  date: '2021-01-01'
+  url: https://tdra.gov.ae/
+  licence: Copyright of the issuer. Context only. Text not redistributed.
+  redistributable: false
+  note: Country context only.
+- doc_id: iso-iec-42001
+  title: ISO/IEC 42001:2023 Artificial intelligence management system
+  issuer: ISO/IEC
+  jurisdiction: global
+  instrument_type: standard
+  domain: cross
+  date: '2023-12-01'
+  url: https://www.iso.org/standard/81230.html
+  licence: ISO copyright. Metadata and citation only. Text not redistributed.
+  redistributable: false
+- doc_id: iso-iec-23894
+  title: ISO/IEC 23894:2023 Guidance on risk management for AI
+  issuer: ISO/IEC
+  jurisdiction: global
+  instrument_type: standard
+  domain: cross
+  date: '2023-02-01'
+  url: https://www.iso.org/standard/77304.html
+  licence: ISO copyright. Metadata and citation only. Text not redistributed.
+  redistributable: false
+- doc_id: itu-t-y3172
+  title: ITU-T Y.3172 Architectural framework for machine learning in future networks
+  issuer: ITU-T
+  jurisdiction: global
+  instrument_type: standard
+  domain: cross
+  date: '2019-06-01'
+  url: https://www.itu.int/rec/T-REC-Y.3172
+  licence: ITU copyright. The Recommendation PDF is not redistributed. A summary from
+    ITUAIReadiness is shipped as ref-y3172-summary.
+  redistributable: false
+- doc_id: un-governing-ai
+  title: Governing AI for Humanity, final report of the UN AI Advisory Body
+  issuer: United Nations
+  jurisdiction: global
+  instrument_type: guideline
+  domain: cross
+  date: '2024-09-01'
+  url: https://www.un.org/en/ai-advisory-body
+  licence: United Nations copyright. Text not redistributed. The upstream PDF is listed
+    in ref_catalog.yaml.
+  redistributable: false
+- doc_id: unesco-recommendation
+  title: UNESCO Recommendation on the Ethics of Artificial Intelligence
+  issuer: UNESCO
+  jurisdiction: global
+  instrument_type: declaration
+  domain: cross
+  date: '2021-11-23'
+  url: https://unesdoc.unesco.org/ark:/48223/pf0000381137
+  licence: UNESCO copyright. Official text not redistributed. See unesco-briefing
+    for an original summary.
+  redistributable: false
+- doc_id: oecd-ai-principles
+  title: OECD Recommendation of the Council on Artificial Intelligence
+  issuer: OECD
+  jurisdiction: global
+  instrument_type: declaration
+  domain: cross
+  date: '2024-05-03'
+  url: https://legalinstruments.oecd.org/en/instruments/OECD-LEGAL-0449
+  licence: OECD copyright. Official text not redistributed. See oecd-briefing for
+    an original summary.
+  redistributable: false
+- doc_id: robodebt-report
+  title: Royal Commission into the Robodebt Scheme, report
+  issuer: Royal Commission into the Robodebt Scheme
+  jurisdiction: national:AU
+  instrument_type: case_report
+  domain: gov_services
+  date: '2023-07-07'
+  url: https://robodebt.royalcommission.gov.au/
+  licence: Commonwealth of Australia. Report text not redistributed. See robodebt-briefing.
+  redistributable: false
+- doc_id: syri-judgment
+  title: SyRI judgment, The Hague District Court, ECLI:NL:RBDHA:2020:1878
+  issuer: The Hague District Court
+  jurisdiction: national:NL
+  instrument_type: court_ruling
+  domain: data_protection
+  date: '2020-02-05'
+  url: https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:RBDHA:2020:1878
+  licence: Judgment text not redistributed pending reuse terms. See syri-briefing.
+  redistributable: false
+- doc_id: childcare-inquiry
+  title: Ongekend onrecht, Dutch parliamentary inquiry into childcare benefits
+  issuer: Tweede Kamer
+  jurisdiction: national:NL
+  instrument_type: case_report
+  domain: gov_services
+  date: '2020-12-17'
+  url: https://www.tweedekamer.nl/kamerstukken/detail?id=2020Z25785
+  licence: Parliamentary report not redistributed. See childcare-briefing.
+  redistributable: false
+- doc_id: singapore-genai-framework
+  title: Model AI Governance Framework for Generative AI
+  issuer: AI Verify Foundation and Infocomm Media Development Authority
+  jurisdiction: national:SG
+  instrument_type: guideline
+  domain: gov_services
+  date: '2024-01-16'
+  url: https://aiverifyfoundation.sg/resources/model-ai-governance-framework-for-generative-ai/
+  licence: Issuer copyright. Framework text not redistributed. See singapore-briefing.
+  redistributable: false

@@ -1,0 +1,6 @@
+{"action_id": "S1-seed1-0002-02", "args": {"topic": "complaint_spike"}, "phase": "T0", "role": "ombudsperson", "target": "service_operator", "type": "NOTIFY"}
+{"action_id": "S1-seed1-0002-03", "args": {"summary": "An appeal route is required before further automated denials."}, "phase": "T0", "role": "ombudsperson", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S1-seed1-0004-02", "args": {"summary": "Automatic denial is paused and a person reviews each case."}, "phase": "T1", "role": "service_operator", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S1-seed1-0006-01", "args": {"summary": "Guidance should cite the human-review and explanation duties."}, "phase": "T2", "role": "policy_adviser", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S1-seed1-0009-01", "args": {"summary": "The notice tells applicants the denial rule is being corrected."}, "phase": "T3", "role": "service_operator", "target": "broadcast", "type": "ASSESSMENT"}
+{"action_id": "S1-seed1-0010-01", "args": {"summary": "Guidance tells caseworkers how to replace the outdated rule."}, "phase": "T3", "role": "policy_adviser", "target": "broadcast", "type": "ASSESSMENT"}
